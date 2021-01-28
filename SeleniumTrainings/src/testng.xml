@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="TestNG Session Test Automation Suite">
+
+	<test name="Different testng feature test">
+		
+		<classes>
+			<class name = "TestNextGeneration.AnnotationsTest" />
+			<class name = "TestNextGeneration.AssertionsTest" />
+			<class name = "TestNextGeneration.DependsOnTest" />
+		</classes>
+	</test>
+	
+</suite>
